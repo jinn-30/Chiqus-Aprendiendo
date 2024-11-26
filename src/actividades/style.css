@@ -1,0 +1,109 @@
+.title h1 {
+    text-align: center;
+    padding: 50px 0 70px 0;
+    font-size: 2.5rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.first {
+    background-image: url(images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.btn h4 {
+    justify-content: center;
+    text-align: center;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 0px 4px 4px white;
+    font-size: 1.1rem;
+}
+
+.btnTopicsTale,
+.btnTopicsSentence,
+.btnTopicsSA,
+.btnTopicsText,
+.btnTopicsAdverbs {
+    margin: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    width: 250px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 130px, 130px;
+    background-position: center;
+    border: white, solid, 4px;
+    border-radius: 2000px;
+    border-top: 4px;
+}
+
+.btnTopicsTale {
+    padding: 128px 0 110px 0px;
+    background-image: url(images/cuentos.png);
+    background-color: #bc60ce;
+}
+
+.btnTopicsSentence {
+    padding: 128px 0 110px 0;
+    background-image: url(images/oraciones.png);
+    background-color: #e6c039;
+}
+
+.btnTopicsSA {
+    padding: 128px 0 110px 0;
+    background-image: url(images/sa.png);
+    background-color: #28b8a9;
+    background-size: 170px, 170px;
+}
+
+.btnTopicsText {
+    padding: 128px 0 110px 0;
+    background-image: url(images/textoimagen.png);
+    background-color: #44dd77;
+    background-size: 160px, 160px;
+}
+
+.btnTopicsAdverbs {
+    padding: 128px 0 110px 0;
+    background-image: url(images/adverbios.png);
+    background-color: #e24869;
+}
+button:hover{
+    transform: scale(1.05);
+}
+
+@media (width >= 375px) and (width <= 768px){
+    .first {
+        height: auto;
+    }
+}
+@media (width >= 768px) and (width <= 1024px) {
+    .first {
+        background-size: cover;
+        height: 1000px;
+    }
+}
+@media (width >= 1024px) and (width <= 1440px) {
+    .first {
+        background-size: cover;
+        height: 800px;
+    }
+}
+@media (width >= 1440px) and (width <= 2560px){
+    .first {
+        height: 900px;
+    }
+    .title{
+        font-size: 3rem
+    }
+}
+
