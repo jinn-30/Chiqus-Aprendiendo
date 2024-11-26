@@ -1,0 +1,244 @@
+@import url(../layouts/header.css);
+ 
+body{
+  font-family: "Poppins", sans-serif;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 8px;
+  background-image: url(../images/background/Rectangle6.png);
+  background-size: cover;
+  background-repeat: round;
+}
+
+.banner {
+  grid-column: span 2 / span 2;
+}
+
+.carrusel {
+  padding: 20px 0 0 0;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: left;
+  grid-column: span 2 / span 2;
+  grid-column-start: 3;
+}
+
+.banner h2 {
+  padding: 80px 0 20px 60px;
+  color: #fcca1b;
+  font-weight: 900;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 0px 4px 4px #fcca1b;
+}
+.banner p {
+  padding: 0 0 0 60px;
+  width: 450px;
+}
+
+
+.banner button {
+  margin: 20px 0 0 50px;
+  width: 180px;
+  padding: 10px;
+  background-color: #2acdbc; 
+  border-color: #b4f3f0;
+  border-radius: 8px;
+  border-style: solid;
+  cursor: pointer;
+  text-align:center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+button:hover {
+  background-color: #b4f3f0;
+  border-color: #2acdbc;
+}
+.carrusel img {
+  width: 650px;
+  height: 400px;
+}
+
+#carrusel-box {
+  -moz-animation: automatizacion 15s infinite linear;
+  -o-animation: automatizacion 15s infinite linear;
+  -webkit-animation: automatizacion 15s infinite linear;
+  animation: automatizacion 15s infinite linear;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+  height: 500px;
+  width: 300%;
+}
+
+.carrusel-element {
+  float: left;
+  width: 33.333%;
+}
+
+@-moz-keyframes automatizacion {
+  0% {
+    margin-left: 0;
+  }
+  30% {
+    margin-left: 0;
+  }
+  35% {
+    margin-left: -100%;
+  }
+  65% {
+    margin-left: -100%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  95% {
+    margin-left: -200%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+@-webkit-keyframes automatizacion {
+  0% {
+    margin-left: 0;
+  }
+  30% {
+    margin-left: 0;
+  }
+  35% {
+    margin-left: -100%;
+  }
+  65% {
+    margin-left: -100%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  95% {
+    margin-left: -200%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+@keyframes automatizacion {
+  0% {
+    margin-left: 0;
+  }
+  30% {
+    margin-left: 0;
+  }
+  35% {
+    margin-left: -100%;
+  }
+  65% {
+    margin-left: -100%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  95% {
+    margin-left: -200%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
+.values-box{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  color: #fcca1b;
+  font-weight: 900;
+  font-size: 2.5rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 0px 4px 4px #fcca1b;
+  margin-bottom: 50px;
+}
+
+.values-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(../images/background/Rectangle30.png);
+  background-size: contain;
+  background-repeat: round;
+  margin-top: 60px;
+  padding-bottom: 60px;
+
+}
+
+
+.values-element1,
+.values-element2,
+.values-element3,
+.values-element4 {
+  text-align: center;
+  color: #fff;
+  width: 325px;
+  height: 275px;
+  margin: 5px;
+  border-radius: 10px;
+  border-color: #fff;
+
+}
+.values-element1 h2,
+.values-element2 h2,
+.values-element3 h2,
+.values-element4 h2 {
+  padding-bottom: 10px;
+}
+.values-element1 {
+  background-color: #2acdbc;
+
+}
+.values-element2 {
+  background-color: #fcca1b;
+
+}
+.values-element3 {
+  background-color: #99efee;
+
+}
+.values-element4 {
+  background-color: #9b29b2;
+
+}
+.values-element1 img,
+.values-element2 img {
+  width: 80px;
+  height: auto;
+  padding: 0px;
+  transform: rotate(1turn);
+}
+.values-element3 img {
+  width: 70px;
+}
+
+.values-element4 img {
+  width: 90px;
+  height: auto;
+  margin: 10px;
+  transform: rotate(1turn);
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  background-color:  #2acdbc;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
