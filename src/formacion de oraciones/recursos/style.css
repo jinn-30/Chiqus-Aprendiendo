@@ -1,0 +1,172 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.title {
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
+
+.container {
+    /*contenedor principal*/
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    height: 100%;
+    justify-self: center;
+    padding: 10px;
+}
+
+.info-sect {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info-sect img {
+    max-width: 50%;
+    margin-left: 70px;
+}
+
+.info-sect article {
+    max-width: 400px;
+    max-height: 250px;
+    background-color: #F5E57E;
+    padding: 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+article h3 {
+    text-align: center;
+}
+
+article p {
+    margin-top: 10px;
+}
+
+.elements-sect {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    background-color: #f9f9f9;
+}
+
+.img1 {
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+.img2 {
+    max-width: 65%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nucleo ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.nucleo ul li {
+    padding-left: 2rem;
+    background-image: url(images/circle-arrow-right-solid.svg);
+    background-position: 0 0;
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+ul i {
+    color: brown;
+}
+
+.modificadores {
+    width: 60%;
+}
+
+.modificadores ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.modificadores ul li {
+    padding-left: 2rem;
+    background-image: url(images/circle-check-regular.svg);
+    background-position: 0 0;
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+/*Fin de la seccion de informacion*/
+.types-sect {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}
+
+.types-sect h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.types-sect h4 {
+    font-size: 20px;
+
+}
+
+.types-sect .simple-sentences {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.types-sect p {
+    margin-bottom: 20px;
+}
+
+p i {
+    color: brown;
+}
+
+.types-sect h5 {
+    color: brown;
+}
+
+.example {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.example h5,
+p {
+    margin: 10px 10px 20px 0;
+}
+
+.e-simple-sentences img {
+    max-width: 80%;
+}
+
+.a-simple-sentences {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a-simple-sentences img {
+    max-width: 60%;
+    margin-top: 20px;
+}
