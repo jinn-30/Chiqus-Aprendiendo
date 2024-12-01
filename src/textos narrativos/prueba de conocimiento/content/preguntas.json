@@ -1,0 +1,32 @@
+[
+    {
+        "question": "1. Los textos narrativos tienen una estructura conformada por:",
+        "correct" : "Inicio - Nudo - Desenlace",
+        "incorrect1" : "Nudo - Desenlace - Final",
+        "incorrect2" : "Inicio - Resumen - Desenlace"
+    },
+    {
+        "question": "2. El objetivo de los textos narrativos son:",
+        "correct": "Narrar una historia o suceso",
+        "incorrect1" : "Explicar una noticia",
+        "incorrect2" : "Describr las caracteristica de algo o alguien"
+    },
+    {
+        "question" : "3. Donde todos son tipo de texto narrativo:",
+        "correct" : "Fabula, leyenda, Cuento",
+        "incorrect1" : "Cuento, receta de cocina, cronica",
+        "incorrect2" : "Intrucciones de uso, mito, noticia"
+    },
+    {
+        "question" : "4. Carateristica mas importante de las fabulas:",
+        "correct" : "Deja una lección o moraleja",
+        "incorrect1" : "Explicar una noticia",
+        "incorrect2" : "Narra una historia de fantasia"
+    },
+    {
+        "question" : "5. Los narradores en primera persona se caracterizan por:",
+        "correct" : "Participa en la historia",
+        "incorrect1" : "No participa en la historia",
+        "incorrect2" : "Participa un poco en la historia"
+    }
+]

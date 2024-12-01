@@ -1,0 +1,55 @@
+{
+    "1":[
+        {
+            "question": "¿Cuántas hijas tenia Don Melquíades?",
+            "correct": "Tres",
+            "incorrect1": "Cinco",
+            "incorrect2": "Dos"
+        },
+        {
+            "question": "¿Quién es la mayor de las hermanas?",
+            "incorrect1": "Rubi",
+            "correct": "Esmeralda",
+            "incorrect2": "Gema"
+        },
+        {
+            "question": "¿Qué le faltaba a Don Melquíades la primera vez que fue desenterrado?",
+            "correct": "Una oreja y tres dedos de la mano",
+            "incorrect1": "Un ojo y dos dedos de la mano",
+            "incorrect2": "Dos orejas y cuatro dedos de la mano"
+        },
+        {
+            "question":"¿Cuál de las hermanas termino con la maldición?",
+            "incorrect1":"Ninguna",
+            "incorrect2":"Esmeralda",
+            "correct":"Rubi"
+        }
+    ],
+    "2":[
+        {
+            "question":"¿Cuántos frejoles estaban en la bolsa?",
+            "correct": "Cinco",
+            "incorrect1": "Cuatro",
+            "incorrect2": "Tres"
+        },
+        {
+            "question": "¿Por qué Juanito debe vender la vaca?",
+            "correct": "Porque la casa necesita reparaciones",
+            "incorrect1": "Porque la vaca esta enferma",
+            "incorrect2": "Porque Juanito quiere comprar dulces"
+        },
+        {
+            "question": "¿Quién es Grimaldina?",
+            "correct": "La vaca de la familia",
+            "incorrect1": "La hermana de Juanito",
+            "incorrect2": "La madre de Juanito"
+        },
+        {
+            "question": "¿Cuántos dias pasaron para crecer los frejoles?",
+            "correct": "Dos",
+            "incorrect1": "Uno",
+            "incorrect2": "Tres"
+        }
+        
+    ]
+}
