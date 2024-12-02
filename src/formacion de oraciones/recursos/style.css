@@ -52,7 +52,7 @@ article p {
 .elements-sect {
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 25px;
+    padding: 25px 35px;
     background-color: #f9f9f9;
 }
 
@@ -61,11 +61,10 @@ article p {
     margin-bottom: 20px;
 }
 
-.img2 {
+.img2{
     max-width: 65%;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
+
 
 .nucleo ul {
     padding-left: 2rem;
@@ -86,7 +85,7 @@ ul i {
 }
 
 .modificadores {
-    width: 60%;
+    width: 80%;
 }
 
 .modificadores ul {
@@ -102,6 +101,43 @@ ul i {
     background-repeat: no-repeat;
     margin: 10px;
 }
+.tip{
+    background-color: #E0E3F1;
+    width: 60%;
+    padding: 15px;
+}
+.modificador ul{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.modificador ul li{
+    padding-left: 2rem;
+    background-image: url(images/circle-arrow-right-solid.svg);
+    background-position: 0 0;
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.modificador h4{
+    margin-top: 30px;
+}
+.example-img{
+    max-width: 90%;
+    margin: 15px;
+}
+.list-types ul{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.list-types ul li{
+    padding-left: 2rem;
+    background-image: url(images/circle-check-regular.svg);
+    background-position: 0 0;
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
 
 /*Fin de la seccion de informacion*/
 .types-sect {
@@ -120,20 +156,39 @@ ul i {
 
 .types-sect h4 {
     font-size: 20px;
-
 }
 
 .types-sect .simple-sentences {
-    border: 1px solid #ddd;
-    border-radius: 8px;
     width: auto;
     height: auto;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
+.examples{
+    margin-top: 20px;
+}
+
+.examples ul{
+    padding-left: 2rem;
+}
+
+.examples .h5{
+    color: rgb(86, 166, 192);
+    font-weight: 600;
+    margin: 15px 0 0 0;
+    font-size: 17px;
+}
+
+.examples p{
+    color: black;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+
+}
+
 .types-sect p {
-    margin-bottom: 20px;
+
 }
 
 p i {
@@ -142,6 +197,18 @@ p i {
 
 .types-sect h5 {
     color: brown;
+}
+.compound-sentences{
+    border-top: 1px solid #ddd;
+}
+.compound-sentences h4{
+    padding-top: 20px;
+    text-align: left;
+
+}
+.compound-sentences .img3{
+    width: 65%;
+    margin: 15px;
 }
 
 .example {
@@ -152,10 +219,16 @@ p i {
 
 .example h5,
 p {
-    margin: 10px 10px 20px 0;
+    margin: 10px 10px 20px 15px;
 }
-
-.e-simple-sentences img {
+.type-simple-sentences{
+    margin-top: 30px;
+    text-align: center;
+}
+.type-simple-sentences h3{
+    margin-bottom: 20px;
+}
+.type-simple-sentences img {
     max-width: 80%;
 }
 
@@ -169,4 +242,37 @@ p {
 .a-simple-sentences img {
     max-width: 60%;
     margin-top: 20px;
+}
+
+.games-sect{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+.games-sect h3{
+    margin-bottom: 20px;
+}
+
+.games-sect div{
+    display: flex;
+    gap: 20px; 
+}
+
+.games-sect button{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+.icon-trophy{
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
 }

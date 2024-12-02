@@ -147,153 +147,29 @@ article p {
     padding: 15px;
     background-color: #f9f9f9;
 }
+
 .games-sect h3{
     font-size: 1.6rem;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
-.exam-btn {
-    margin: 20px 50px 10px 20px;
-    outline: 0;
-    display: inline-flex;
+
+.games-sect div{
+    display: flex;
+    gap: 20px; 
+}
+
+.games-sect button{
+    padding: 10px;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-    background: #40B3A2;
-    min-width: 200px;
-    border: 0;
-    border-radius: 4px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
-    box-sizing: border-box;
-    padding: 16px 20px;
-    color: #fff;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    overflow: hidden;
-    cursor: pointer;
+    font-size: 1rem;
 }
 
-.exam-btn:hover{
-    opacity: .95;
-    color: black;
-}
-.exam-btn .animation {
-    border-radius: 100%;
-    animation: ripple 0.6s linear infinite;
-}
-@keyframes ripple {
-    0% {
-      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
-    }
-  
-    100% {
-      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
-    }
-  }
-
-.accordion {
-    .accordion-item {
-        border-bottom: 1px solid #e5e5e5;
-
-        button[aria-expanded='true'] {
-            border-bottom: 1px solid #03b5d2;
-        }
-    }
-
-    button {
-        position: relative;
-        display: block;
-        text-align: left;
-        width: 100%;
-        padding: 1em 0;
-        color: #7288a2;
-        font-size: 1.2rem;
-        font-weight: 500;
-        border: none;
-        background: none;
-        outline: none;
-
-        &:hover,
-        &:focus {
-            cursor: pointer;
-            color: #03b5d2;
-
-            &::after {
-                cursor: pointer;
-                color: #03b5d2;
-                border: 1px solid #03b5d2;
-            }
-        }
-
-        .accordion-title {
-            padding: 1em 1.5em 1em 0;
-        }
-
-        .icon {
-            display: inline-block;
-            position: absolute;
-            top: 18px;
-            right: 0;
-            width: 22px;
-            height: 22px;
-            border: 1px solid;
-            border-radius: 22px;
-
-            &::before {
-                display: block;
-                position: absolute;
-                content: '';
-                top: 9px;
-                left: 5px;
-                width: 10px;
-                height: 2px;
-                background: currentColor;
-            }
-
-            &::after {
-                display: block;
-                position: absolute;
-                content: '';
-                top: 5px;
-                left: 9px;
-                width: 2px;
-                height: 10px;
-                background: currentColor;
-            }
-        }
-    }
-
-    button[aria-expanded='true'] {
-        color: #03b5d2;
-
-        .icon {
-            &::after {
-                width: 0;
-            }
-        }
-
-        +.accordion-content {
-            opacity: 1;
-            max-height: 35em;
-            transition: all 200ms linear;
-            will-change: opacity, max-height;
-        }
-    }
-
-    .accordion-content {
-        opacity: 0;
-        max-height: 0;
-        overflow: hidden;
-        transition: opacity 200ms linear, max-height 200ms linear;
-        will-change: opacity, max-height;
-
-        p {
-            font-size: 1rem;
-            font-weight: 300;
-            margin: 2em 0;
-            text-align: left;
-        }
-    }
+.icon-trophy{
+    width: 24px;
+    height: 24px;
+    margin: 5px;
 }
 
 footer{
