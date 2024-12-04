@@ -8,31 +8,27 @@
 </head>
 <body>
     <div class="container">
-        <h2 class="titulo">Formación de Oraciones</h2>
+        <h1 class="titulo">Oraciones simples</h1>
+        <p class="instrucciones">
+            Aprende a formar oraciones y a identificar sus partes: 
+            <span class="sujeto">Sujeto</span>, <span class="verbo">Verbo</span>, y <span class="predicado">Complemento</span>. 
+            Completa correctamente la oración para pasar al siguiente reto.
+        </p>
 
+
+
+        <!-- Actividad -->
         <div class="content">
-            <div class="texto-parrafo">
-                <h3 class="subtitulo">Completa la oración:</h3>
-                <p id="parrafo">
-                    <!-- Aquí se insertará el texto dinámico con espacios en blanco -->
-                </p>
-                <div class="palabras" id="palabras">
-                    <!-- Las palabras para arrastrar se generarán aquí -->
-                </div>
-            </div>
-            <div class="imagen-nino">
-                <img src="img/niña.png" alt="Niño leyendo">
-            </div>
+            <h3 class="subtitulo">Completa la oración:</h3>
+            <p id="parrafo"></p>
+            <div class="palabras" id="palabras"></div>
         </div>
-        
-        <button id="validar" onclick="validarOracion()">Validar Oración</button>
-        <div id="mensaje" class="mensaje"></div>
-    </div>
+
+         <!-- Botón de validar -->
+         <button id="boton-validar">Validar Oración</button>
+         <div id="mensaje" class="mensaje"></div>
+     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-

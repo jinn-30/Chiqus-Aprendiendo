@@ -66,19 +66,7 @@ article p {
 }
 
 
-.nucleo ul {
-    padding-left: 2rem;
-    list-style-type: none;
-}
 
-.nucleo ul li {
-    padding-left: 2rem;
-    background-image: url(images/circle-arrow-right-solid.svg);
-    background-position: 0 0;
-    background-size: 1.5rem 1.5rem;
-    background-repeat: no-repeat;
-    margin: 10px;
-}
 
 ul i {
     color: brown;
@@ -88,12 +76,12 @@ ul i {
     width: 80%;
 }
 
-.modificadores ul {
+.list-types-arrow ul {
     padding-left: 2rem;
     list-style-type: none;
 }
 
-.modificadores ul li {
+.list-types-arrow ul li {
     padding-left: 2rem;
     background-image: url(images/circle-check-regular.svg);
     background-position: 0 0;
@@ -101,16 +89,31 @@ ul i {
     background-repeat: no-repeat;
     margin: 10px;
 }
+
+.circumstances-sect{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+.circumstances-sect h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.circumstances-sect h4{
+    margin-top: 20px;
+}
+
 .tip{
     background-color: #E0E3F1;
     width: 60%;
     padding: 15px;
 }
-.modificador ul{
+.list-types-arrow ul{
     padding-left: 2rem;
     list-style-type: none;
 }
-.modificador ul li{
+.list-types-arrow ul li{
     padding-left: 2rem;
     background-image: url(images/circle-arrow-right-solid.svg);
     background-position: 0 0;
@@ -125,11 +128,11 @@ ul i {
     max-width: 90%;
     margin: 15px;
 }
-.list-types ul{
+.list-types-check ul{
     padding-left: 2rem;
     list-style-type: none;
 }
-.list-types ul li{
+.list-types-check ul li{
     padding-left: 2rem;
     background-image: url(images/circle-check-regular.svg);
     background-position: 0 0;
@@ -187,9 +190,7 @@ ul i {
 
 }
 
-.types-sect p {
 
-}
 
 p i {
     color: brown;
@@ -264,12 +265,147 @@ p {
     padding: 10px;
     display: flex;
     align-items: center;
-    font-size: 1rem;
+    margin-top: 20px;
+    min-width: 200px;
+    padding: 10px;
+    background-color: #7bb2c0;
+    border-color: #83d6c4;
+    border-radius: 8px;
+    border-style: solid;
+    cursor: pointer;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.games-sect button:hover{
+    background-color: #83d6c4;
 }
 .icon-trophy{
     width: 24px;
     height: 24px;
     margin: 5px;
+}
+
+.accordion{
+    width: 80%;
+    margin-left: 1rem;
+}
+
+.list-types ul{
+    padding-left: 2rem;
+    list-style-type: decimal;
+    
+}
+.list-types ul li{
+    padding-left: 1rem;
+    margin: 10px;
+}
+
+
+.accordion {
+    .accordion-item {
+        border-bottom: 1px solid #e5e5e5;
+
+        button[aria-expanded='true'] {
+            border-bottom: 1px solid #03b5d2;
+        }
+    }
+
+    button {
+        position: relative;
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 1em 0;
+        color: #7288a2;
+        font-size: 1.2rem;
+        font-weight: 500;
+        border: none;
+        background: none;
+        outline: none;
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            color: #03b5d2;
+
+            &::after {
+                cursor: pointer;
+                color: #03b5d2;
+                border: 1px solid #03b5d2;
+            }
+        }
+
+        .accordion-title {
+            padding: 1em 1.5em 1em 0;
+        }
+
+        .icon {
+            display: inline-block;
+            position: absolute;
+            top: 18px;
+            right: 0;
+            width: 22px;
+            height: 22px;
+            border: 1px solid;
+            border-radius: 22px;
+
+            &::before {
+                display: block;
+                position: absolute;
+                content: '';
+                top: 9px;
+                left: 5px;
+                width: 10px;
+                height: 2px;
+                background: currentColor;
+            }
+
+            &::after {
+                display: block;
+                position: absolute;
+                content: '';
+                top: 5px;
+                left: 9px;
+                width: 2px;
+                height: 10px;
+                background: currentColor;
+            }
+        }
+    }
+
+    button[aria-expanded='true'] {
+        color: #03b5d2;
+
+        .icon {
+            &::after {
+                width: 0;
+            }
+        }
+
+        +.accordion-content {
+            opacity: 1;
+            max-height: 35em;
+            transition: all 200ms linear;
+            will-change: opacity, max-height;
+        }
+    }
+
+    .accordion-content {
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: opacity 200ms linear, max-height 200ms linear;
+        will-change: opacity, max-height;
+
+        p {
+            font-size: 1rem;
+            font-weight: 300;
+            margin: 1em 0;
+            text-align: left;
+        }
+    }
 }
 footer{
     width: 100%;

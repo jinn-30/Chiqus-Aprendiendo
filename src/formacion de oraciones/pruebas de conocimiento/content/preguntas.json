@@ -1,32 +1,37 @@
 [
     {
-        "question": "1. Los textos narrativos tienen una estructura conformada por:",
-        "correct" : "Inicio - Nudo - Desenlace",
-        "incorrect1" : "Nudo - Desenlace - Final",
-        "incorrect2" : "Inicio - Resumen - Desenlace"
+        "question": "1. En la oración, “Esta semana es ideal para una pequeñas vacaciones.” El sintagma 'Esta semana' funciona de:",
+        "correct" : "Sujeto",
+        "incorrect1" : "Atributo",
+        "incorrect2" : "Complemeno directo",
+        "incorrect3" : "Complemento C. de tiempo"
     },
     {
-        "question": "2. El objetivo de los textos narrativos son:",
-        "correct": "Narrar una historia o suceso",
-        "incorrect1" : "Explicar una noticia",
-        "incorrect2" : "Describr las caracteristica de algo o alguien"
+        "question": "2. En la oración, “La herida se te puede complicar e infeactar.” se puede decir que es una oración:",
+        "correct": "Conjunción copulativa",
+        "incorrect1" : "Conjunción disyuntivas",
+        "incorrect2" : "Conjunción adversativas",
+        "incorrect3" : "Conjunción distributivas"
     },
     {
-        "question" : "3. Donde todos son tipo de texto narrativo:",
-        "correct" : "Fabula, leyenda, Cuento",
-        "incorrect1" : "Cuento, receta de cocina, cronica",
-        "incorrect2" : "Intrucciones de uso, mito, noticia"
+        "question" : "3. En la oración, “La maestra tomará examen a la mañana.” El complemento de tiempo es:",
+        "correct" : "a la mañana",
+        "incorrect1" : "la maestra",
+        "incorrect2" : "tomará",
+        "incorrect3" : "examen"
     },
     {
-        "question" : "4. Carateristica mas importante de las fabulas:",
-        "correct" : "Deja una lección o moraleja",
-        "incorrect1" : "Explicar una noticia",
-        "incorrect2" : "Narra una historia de fantasia"
+        "question" : "4. En la oración, “Esta mañana se nos ha vuelto a estropear la lavadora.” el sujeto es:",
+        "correct" : "Lavadora",
+        "incorrect1" : "Nos",
+        "incorrect2" : "A nosotros",
+        "incorrect3" : "No hay, es impersonal"
     },
     {
-        "question" : "5. Los narradores en primera persona se caracterizan por:",
-        "correct" : "Participa en la historia",
-        "incorrect1" : "No participa en la historia",
-        "incorrect2" : "Participa un poco en la historia"
+        "question" : "5. Las oraciones compuestas se caracterizan por tener:",
+        "correct" : "Dos proposiciones",
+        "incorrect1" : "Dos oraciones",
+        "incorrect2" : "Una proposición",
+        "incorrect3" : "Una oración"
     }
 ]

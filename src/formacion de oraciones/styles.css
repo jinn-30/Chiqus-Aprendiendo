@@ -1,119 +1,223 @@
+/* Estilo general */
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('img/fondo\ naranja.png'); /* Asegúrate de tener tu fondo aquí */
-    background-size: cover;
-    color: #0c0c0c;
-    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #E1F5FE; /* Fondo de color azul claro */
     margin: 0;
     padding: 0;
+    line-height: 1.6;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/geometry.png'); /* Fondo de patrón geométrico suave */
+    background-size: cover;
 }
 
+/* Contenedor principal */
 .container {
     width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
+    max-width: 1000px;
+    margin: auto;
+    background: #ffffff;
     padding: 20px;
     border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 30px;
 }
 
-
+/* Títulos e instrucciones */
 .titulo {
-    font-size: 40px;
-    color: #e68c06;
+    color: #FF4081;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.instrucciones {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Colores por tipo de palabra */
+.sujeto {
+    color: #FF5722;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.verbo {
+    color: #2196F3;
+    font-weight: bold;
+}
+
+.predicado {
+    color: #9C27B0;
+    font-weight: bold;
+}
+
+/* Ejemplo */
+.ejemplo {
+    background: #F3E5F5; /* Fondo suave con color lavanda */
+    padding: 20px;
+    border: 2px solid #AB47BC;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
+.explicacion {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Contenido de la actividad */
 .content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
+    margin-top: 20px;
 }
 
-.texto-parrafo {
-    width: 100%;
-    text-align: left;
-    font-size: 18px;
-    color: #050505;
-}
-
-.subtitulo {
-    font-size: 24px;
-    color: #6a1b9a;
-    margin-bottom: 15px;
-}
-
-.blanco {
-    display: inline-block;
-    width: 80px;
-    height: 30px;
-    border-bottom: 2px dashed #ff5722;
-    margin: 0 5px;
-    background-color: #fff;
-}
-
-.imagen-nino {
-    width: 110%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.imagen-nino img {
-    width: 100%;
-    height: auto;
+#parrafo {
+    font-size: 1.5em;
+    margin: 20px 0;
+    line-height: 1.8;
 }
 
 .palabras {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-wrap: wrap;  /* Permite que las palabras se acomoden a varias líneas */
-    width: 100%;
-    padding: 15px;
+    gap: 15px;
     margin-top: 20px;
-    border: 2px solid #ffca28;
-    border-radius: 10px;
-    background-color: #fffde7;
-    word-wrap: break-word; /* Permite el ajuste de palabras largas dentro del contenedor */
-    overflow-wrap: break-word; /* También se asegura que las palabras largas se ajusten */
 }
 
-
-.palabra {
-    margin: 10px;
-    padding: 10px;
-    background-color: #4CAF50;
+/* Estilo de los espacios en blanco */
+.blank {
+    display: inline-block;
+    width: auto;
+    padding: 0 10px 0 10px;
+    height: 40px;
+    margin: 5px;
+    background-color: #f2f2f2;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
     border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    cursor: grab;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
-    word-wrap: break-word; /* Esto permite que las palabras largas se ajusten */
-    white-space: normal;  /* Permite que el texto fluya y no se mantenga en una sola línea */
 }
 
+.blank:hover {
+    background-color: #E0F7FA; /* Azul claro */
+    border: 2px dashed #00ACC1; /* Borde azul */
+}
 
-#validar {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 25px;
-    font-weight: bold;
-    background-color:  #ffd54f;
+.blank.correcto {
+    background-color: #C8E6C9; /* Verde claro */
+    color: #388E3C; /* Verde */
+    border: 2px solid #388E3C;
+}
+
+/* Estilo de las palabras */
+.palabra {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #FF9800; /* Naranja vivo */
+    color: white;
+    font-size: 20px;
+    cursor: grab;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.palabra:hover {
+    background-color: #F57C00; /* Naranja más oscuro */
+}
+
+.seleccionada {
+    background-color: #b3e0ff; /* Azul claro */
+}
+
+/* Botón de validación */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
     border: none;
     border-radius: 5px;
-    color: #4a148c;
+    font-size: 1.2em;
     cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
 }
 
-#validar:hover {
-    background-color: #e68c06;
+button:hover {
+    background-color: #388E3C;
 }
 
+button:active {
+    background-color: #2C6E2F;
+}
+
+/* Mensajes de retroalimentación */
 .mensaje {
+    font-size: 1.5em;
     margin-top: 20px;
-    font-size: 20px;
-    color: blue;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mensaje.correcto {
+    color: #4CAF50; /* Verde */
+    background-color: #E8F5E9; /* Fondo verde claro */
+    border: 2px solid #388E3C;
+}
+
+.mensaje.incorrecto {
+    color: #F44336; /* Rojo */
+    background-color: #FFEBEE; /* Fondo rojo claro */
+    border: 2px solid #D32F2F;
+}
+
+/* Estilo responsivo */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .blank, .palabra {
+        font-size: 16px;
+        width: auto;
+        padding: 8px 10px;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.boton-cerrar {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-cerrar:hover {
+    background: #0056b3;
 }
