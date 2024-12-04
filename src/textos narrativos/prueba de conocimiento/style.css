@@ -67,7 +67,7 @@ main{
     cursor: not-allowed;
 }
 .modal{
-    display: none;
+
     flex-direction: column;
     justify-self: center;
     align-self: center;

@@ -1,0 +1,82 @@
+[
+    {
+        "imagen": "https://previews.123rf.com/images/theblackrhino/theblackrhino1504/theblackrhino150400242/38824634-vaso-de-pl%C3%A1stico-lleno-de-agua-aislado-m%C3%A1s-de-blanco.jpg",
+        "palabra": "lleno",
+        "antonimos": [" vacio", "desierto"]
+    },
+    {
+        "imagen": "https://img.freepik.com/vector-premium/cara-sonriente-amarilla-cara-triste-ella_1226545-2428.jpg",
+        "palabra": "triste",
+        "antonimos": ["contento", "feliz"]
+    },
+    {
+        "imagen": "https://conceptodefinicion.de/wp-content/uploads/2017/12/Lento2.jpg",
+        "palabra": "lento",
+        "antonimos": ["rapido", "veloz"]
+    },
+    {
+        "imagen": "https://static.vecteezy.com/system/resources/previews/010/748/844/non_2x/entry-icon-design-free-vector.jpg",
+        "palabra": "entrada",
+        "antonimos": ["salida", "a fuera"]
+    },{
+        "imagen": "https://static.vecteezy.com/system/resources/thumbnails/028/536/500/small_2x/simple-white-circle-and-drop-shadow-png.png",
+        "palabra": "blanco",
+        "antonimos": ["negro"]
+    },{
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtBTx75cqX2o7RUPyjMm8cNj3RGHK7-u7ZbQ&s",
+        "palabra": "desierto",
+        "antonimos": ["bosque"]
+    },{
+        "imagen": "https://img.freepik.com/vector-premium/ataud-muerto-isometrico_592324-684.jpg",
+        "palabra": "muerto",
+        "antonimos": ["vivo", "activo"]
+    },{
+        "imagen": "https://img.freepik.com/vector-premium/sol-amarillo-rayos-brillo-fondo-transparente-contiene-mascara-recorte-luz-brillo-ilustracion-vectorial-eps-10_290644-690.jpg?semt=ais_hybrid",
+        "palabra": "luz",
+        "antonimos": ["oscuridad", "penumbra"]
+    },{
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq0ran-4a4-CAbVPvduQrVH-p6E6VV0E8yzQ&s",
+        "palabra": "verdad",
+        "antonimos": ["mentira", "engaño"]
+    },{
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs0UHMSqLRFrB6V7QtNVO9cXGdL3xMKXiijg&s",
+        "palabra": "hermoso",
+        "antonimos": ["feo", "horrible"]
+    },{
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/43/Peace_dove.svg",
+        "palabra": "paz",
+        "antonimos": ["guerra"]
+    },{
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbq5jBId3yBL1WnkofssUXoNDzj_68GO6G1w&s",
+        "palabra": "sanar",
+        "antonimos": ["herir", "lastimar"]
+    },{
+        "imagen": "https://w7.pngwing.com/pngs/427/153/png-transparent-computer-icons-business-user-company-young-miscellaneous-child-face-thumbnail.png",
+        "palabra": "joven",
+        "antonimos": ["viejo", "anciano"]
+    },{
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqmWRFtUeMi9dMojjPvArSnkqgG7FpVZvZdA&s",
+        "palabra": "sumar",
+        "antonimos": ["restar", "reducir"]
+    },
+    {
+        "imagen": "https://thumbs.dreamstime.com/b/ni%C3%B1a-adolescente-con-lenguaje-vulgar-y-groser%C3%ADas-ilustraciones-vectoriales-maltrato-rebelde-usando-un-mal-discurso-obsceno-sin-222117330.jpg",
+        "palabra": "vulgar",
+        "antonimos": ["refinado", "elegante"]
+    },
+    {
+        "imagen": "https://sorece.org/wp-content/uploads/2024/05/sorece-blog-la-importancia-de-visualizar-tu-futuro.webp",
+        "palabra": "futuro",
+        "antonimos": ["pasado", "antes"]
+    },
+    {
+        "imagen": "",
+        "palabra": "sabio",
+        "antonimos": ["ignorante", "inculto"]
+    },
+    {
+        "imagen": "https://png.pngtree.com/png-clipart/20190924/original/pngtree-false-free-png-png-image_4863857.jpg",
+        "palabra": "falso",
+        "antonimos": ["autentico", "real", "verdadero"]
+    }
+]

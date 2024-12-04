@@ -1,0 +1,92 @@
+[
+    {
+      "imagen": "https://www.shutterstock.com/image-vector/illustration-cute-donkey-animal-on-600nw-2489771383.jpg",
+      "palabra": "asno",
+      "sinonimos": ["burro", "pollino"]
+    },
+    {
+      "imagen": "https://img.freepik.com/vector-premium/ilustracion-silueta-vectorial-tren-viejo-fondo-blanco_852896-21568.jpg",
+      "palabra": "locomotora",
+      "sinonimos": ["tren", "máquina"]
+    },
+    {
+      "imagen": "https://img.freepik.com/vector-premium/vector-dibujos-animados-anteojos-redondos_520417-512.jpg",
+      "palabra": "anteojos",
+      "sinonimos": ["gafas", "lentes"]
+    },
+    {
+      "imagen": "https://st.depositphotos.com/3625507/5149/v/450/depositphotos_51493011-stock-illustration-jumping-boy.jpg",
+      "palabra": "brincar",
+      "sinonimos": ["saltar", "saltarín"]
+    },
+    {
+       "imagen" : "https://img.freepik.com/vector-premium/casa-dibujos-animados_11460-1609.jpg?semt=ais_hybrid",
+       "palabra" : "casa",
+       "sinonimos" : ["hogar", "morada"]
+    },
+    {
+        "imagen" : "https://static.vecteezy.com/system/resources/previews/007/987/463/non_2x/fish-in-cartoon-style-fish-icon-for-your-design-illustration-vector.jpg",
+        "palabra" : "pescado",
+        "sinonimos" : ["pez", "marino"]
+    },
+    {
+        "imagen" : "https://media.istockphoto.com/id/1339346023/es/vector/concepto-de-sordera-el-joven-sostiene-su-mano-cerca-de-su-oreja.jpg?s=612x612&w=0&k=20&c=Z6HdvxLRmSxP9ExU-jVC5pvjHeTVkuS3-73P-bxaiuA=",
+        "palabra" : "escuchar",
+        "sinonimos" : ["oir", "atender"]
+    },
+    {
+        "imagen" : "https://img.freepik.com/vector-premium/nino-aprendiendo-pintar-su-lienzo_7814-584.jpg",
+        "palabra" : "pintar",
+        "sinonimos" : ["dibujar", "pintura"]
+    },
+    {
+        "imagen" : "https://st3.depositphotos.com/1007566/13410/v/450/depositphotos_134108900-stock-illustration-people-walking-isolated-icon.jpg",
+        "palabra" : "caminar",
+        "sinonimos" : ["andar", "pasear"]
+    },
+    {
+        "imagen" : "https://img.freepik.com/vector-premium/vector-pareja-bodas-es-ilustracion-dibujos-animados_925578-416.jpg",
+        "palabra": "boda",
+        "sinonimos" : ["matrimonio", "casamiento"]
+    },
+    {
+        "imagen" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB7KH8vzpY_lWyHmRZivlVUMiyNGAUa_8tKwWyRqkJ8ZKV1WU3_xz3Y3qJwJNGaaorsoE&usqp=CAU",
+        "palabra": "boleto",
+        "sinonimos" : ["tiquete", "entrada"]
+    },
+    {
+        "imagen" : "https://img.freepik.com/vector-premium/ilustracion-lampara-simbolo-buena-idea-color-amarillo-estilo-doodle_460232-243.jpg",
+        "palabra": "alumbrar",
+        "sinonimos" : ["iluminar", "brillar"]
+    },
+    {
+        "imagen" : "https://st3.depositphotos.com/1526816/14690/v/450/depositphotos_146905257-stock-illustration-boy-whistlering-in-the-rain.jpg",
+        "palabra": "mojado",
+        "sinonimos" : ["humedo", "empapado"]
+    },
+    {
+        "imagen" : "https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2022/07/rutas-camino-santiago-2753973.jpg?tf=1200x1200",
+        "palabra": "camino",
+        "sinonimos" : ["sendero", "senda"]
+    },
+    {
+        "imagen" : "https://wilsonstore.com.co/wp-content/uploads/2024/05/5ff8adce920c0270df55dfcf_thumbnail.jpg",
+        "palabra": "balon",
+        "sinonimos" : ["pelota", "bola"]
+    },
+    {
+        "imagen" : "https://cdn-icons-png.flaticon.com/512/11757/11757360.png",
+        "palabra": "alegre",
+        "sinonimos" : ["feliz", "contenta", "felíz"] 
+    },
+    {
+        "imagen" : "https://img.freepik.com/vector-premium/hombre-negocios-subir-escaleras-promocion-trabajo_7450-133.jpg",
+        "palabra": "subir",
+        "sinonimos" : ["ascender", "levantar"]
+    },
+    {
+        "imagen" : "https://www.elcarrocolombiano.com/wp-content/uploads/2023/12/20231229-XIAOMI-SU7-CARRO-ELECTRICO-ALTO-DESEMPENO-PRECIOS-FICHA-TECNICA-AUTONOMIA-01.jpg",
+        "palabra": "automovil",
+        "sinonimos" : ["coche", "carro", "vehiculo"]
+    }
+  ]

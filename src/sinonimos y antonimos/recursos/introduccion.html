@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../styles/app.css">
+    <link rel="stylesheet" href="../../layouts/header.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Sinónimos y Antónimos</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../../images/logo.png" alt="">
+        </div>
+        <input type="checkbox" id="nav-check" hidden />
+        <nav class="navbar">
+            <div class="logo">
+                <img src="src/images/logo1.png" alt="">
+            </div>
+            <ul>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <label htmlFor="nav-check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+    <main>
+        <div class="title">
+            <h2>Introducción a</h2>
+            <h1>SINÓNIMOS Y ANTÓNIMOS</h1>
+        </div>
+        <div class="container">
+            <section class="info-sect">
+                <div class="info">
+                    <article class="significado">
+                        <h3>¿Qué es un sinónimo?</h3>
+                        <p>Llamaremos sinónimo a aquellas palabras que tienen un significado igual o muy similar, pero
+                            que se escriben de manera diferente.</p>
+                    </article>
+                    <article class="ejemplo">
+                        <h4>Ejemplos de sinónimos</h4>
+                        <ul>
+                            <li> Feliz - Alegre</li>
+                            <li> Grande - Enorme</li>
+                            <li> Pequeño - Diminuto</li>
+                            <li> Hablar - Expresar</li>
+                            <li> Rápido - Veloz</li>
+                        </ul>
+                    </article>
+                </div>
+                <section class="types-sect">
+                    <p>Las palabras sinónimas, al tener un significado igual o parecido, son fácilmente intercambiables
+                        en el contexto de una oración, sin que esta cambie su sentido general.
+                        Para ello, deben pertenecer a la misma categoría gramatical, al igual que los antónimos. Por
+                        ejemplo: </p>
+                    <div class="list-types-arrow">
+                        <ul>
+                            <li><b>Adjetivos</b>: El bar está <b class="b">lleno</b>.</li>
+                            <p><i>El bar está <b>repleto</b>.</i> (Sinónimo)</p>
+                            <p><i>El bar está <b>vacío</b>.</i> (Anónimo)</p>
+
+                            <li><b>Sustantivos</b>: El <b class="b">día</b> estaba caluroso.</li>
+                            <p><i>La <b>jornada</b> estaba calurosa.</i> (Sinónimo)</p>
+                            <p><i>La <b>noche</b> estaba calurosa.</i> (Antónimo)</p>
+
+                            <li><b>Verbos</b>: <b class="b">Encontré</b> las llaves.</li>
+                            <p><i><b>Hallé</b> las llaves.</i> (Sinónimo)</p>
+                            <p><i><b>Perdí</b> las llaves.</i> (Antónimo)</p>
+                        </ul>
+                        <br>
+                        <p>Sin embargo, no todos los términos del español tienen sinónimos intercambiables, en
+                            particular aquellas palabras con significado muy específico o técnico,
+                            como por ejemplo tomografía. En cambio, los términos que se refieren a conceptos más
+                            abstractos suelen tener mayor cantidad de palabras sinónimas.
+                            Por ejemplo: <i>inteligente, listo, sagaz, perspicaz, capaz, ingenioso, lúcido.</i></p>
+                    </div>
+                    <h4>Tipos de sinónimos</h4>
+                    <p>En una primera clasificación, los sinónimos se dividen en dos grandes grupos:</p>
+                    <div class="list-types-circle">
+                        <ul>
+                            <li><b>Sinónimos totales</b>. Son aquellos términos que coinciden en su significado de forma
+                                exacta y son perfectamente intercambiables en una oración. Por ejemplo:
+                                <br><i><b>Empezaremos</b> a leer el capítulo uno.</i>
+                                <br><i><b>Comenzaremos</b> a leer el capítulo uno.</i>
+                            </li>
+
+                            <li><b>Sinónimos parciales</b>. Son aquellos términos que tienen el mismo significado en un
+                                contexto determinado, pero en otro cambian el sentido y no funcionan como tales. Por
+                                ejemplo:
+                                <br><i>Se cortó la <b>energía</b> eléctrica.</i>
+                                <br><i>Se cortó la <b>corriente</b> eléctrica.</i>
+                                <br>(Energía y corriente son sinónimos solo en este contexto, pero no lo serían en “Me
+                                quedé sin energía en la carrera” o “La corriente del río es muy fuerte”).
+                            </li>
+                            <br>
+                            <p>Dentro de los sinónimos parciales, podemos diferenciar otros tipos, según el significado
+                                de las palabras y el grado de semejanza que existe entre estas:</p>
+
+                            <li><b>Sinónimos conceptuales</b>. Son aquellos términos que se refieren a un mismo concepto
+                                y podrían ser intercambiables, pero existe una preferencia por parte del usuario, quien
+                                elegirá una palabra por sobre otra. Por ejemplo:
+                                <br><i>Nademos en la <b>piscina</b>.</i>
+                                <br><i>Nademos en la <b>pileta</b>.</i>
+                            </li>
+
+                            <li><b>Sinónimos contextuales</b>. Son aquellos términos que se pueden intercambiar solo en
+                                contextos en los cuales su significado coincide. Por ejemplo:
+                                <br><i>Las lentejas me caen <b>pesadas</b>. (Indigestas)</i>
+                                <br><i>Mis primas son <b>pesadas</b>. (Fastidiosas)</i>
+                            </li>
+
+                            <li><b>Sinónimos referenciales.</b> Son aquellos términos que aluden a un mismo referente,
+                                pero que no significan puntualmente lo mismo. Es el caso de los hiperónimos (palabras
+                                cuyo significado incluye el de otras) o hipónimos (palabras cuyo significado está
+                                englobado en el de otras). Por ejemplo:
+                                <br><i>Patricio se quebró un <b>brazo</b>.</i>
+                                <br><i>Patricio se quebró una <b>extremidad</b>.</i>
+                            </li>
+
+                            <li><b>Sinónimos de connotación</b>. Son aquellos términos que no tienen un significado
+                                igual, pero connotan lo mismo en alguno de sus sentidos. Por ejemplo:
+                                <br><i>Lionel Messi es un <b>monstruo</b> del fútbol.</i>
+                                <br><i>Lionel Messi es un <b>genio</b> del fútbol.</i>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+            <section class="video-sect">
+                <h3>Vídeo sobre sinómimos</h3>
+                <iframe width="80%" height="600" src="https://www.youtube.com/embed/9jwO4TQUSD8?si=Y7UgEz55UP2cNdc3"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+            <section class="info-sect">
+                <div class="info">
+                    <article class="significado">
+                        <h3>¿Qué es un antónimo?</h3>
+                        <p>Los antónimos son aquellas palabras que tienen un significado opuesto o contrario entre sí.
+                            Un ejemplo de este tipo de palabras puede ser feliz y triste.
+                        </p>
+                    </article>
+                    <article class="ejemplo">
+                        <h4>Ejemplos de antónimos</h4>
+                        <ul>
+                            <li> Carga - Descarga</li>
+                            <li> Natural - Artificial</li>
+                            <li> Angel - Demonio</li>
+                            <li> Feliz - Triste</li>
+                            <li> Grande - Pequeño</li>
+                        </ul>
+                    </article>
+                </div>
+                <!--Seccion para antonimos-->
+                <section class="types-sect">
+                    <p>La mayoría de las palabras del español tiene su antónimo, aunque no siempre son términos
+                        estrictamente contrarios. Si bien existen ejemplos como padre / hijo o inicio / fin, que se
+                        contraponen y no existiría uno sin el otro, hay otros antónimos que se oponen solo en cierta
+                        parte de su significado, como es el caso de decir, que puede tener su antónimo en callar (no
+                        hablar) o en negar (no opinar).</p>
+                    <h4>Tipos de antónimos</h4>
+                    <p>Según el grado de oposición en sus significados, los antónimos se clasifican en:</p>
+                    <div class="list-types-circle">
+                        <ul>
+                            <li><b>Antónimos absolutos</b>. Son aquellos términos que expresan significados
+                                completamente contrarios. Por ejemplo:
+                                <br><i>Mi tío Santiago es <b>alto</b>.</i>
+                                <br><i>Mi tío Santiago es <b>bajo</b>.</i>
+                            </li>
+
+                            <li><b>Antónimos relativos</b>. Son aquellos términos cuyos significados se oponen de forma
+                                parcial, esto es, la contrariedad no es exacta y cabe la posibilidad de que otra palabra
+                                pueda expresar una oposición más profunda. Por ejemplo:
+                                <br><i>Este monumento es <b>colosal</b>.</i>
+                                <br><i>Este monumento es <b>pequeño</b>.</i> (<i class="i">Diminuto</i> sería el
+                                antónimo absoluto, por lo cual <i class="i">pequeño</i> es un antónimo relativo).
+                            </li>
+
+                            <p>Según el significado de las palabras que se contraponen, los antónimos se clasifican en:
+                            </p>
+                            <li><b>Antónimos recíprocos</b>. Son aquellos términos que poseen significados contrarios
+                                con la particularidad de que la existencia de uno de ellos implica la del otro. Por
+                                ejemplo:
+                                <br><i>Ayer se llevó adelante la <b>venta</b> de la propiedad.</i>
+                                <br><i>Ayer se llevó adelante la <b>compra</b> de la propiedad.</i>
+                            </li>
+                            <li><b>Antónimos complementarios</b>. Son aquellos términos que poseen significados
+                                contrarios con la particularidad de que la existencia de uno excluye la del otro. Por
+                                ejemplo:
+                                <br><i>La solicitud de María fue <b>aceptada</b> en la universidad.</i>
+                                <br><i>La solicitud de María fue <b>rechazada</b> en la universidad.</i>
+                            </li>
+                            <li><b>Antónimos graduales</b>. Son aquellos términos que poseen significados contrarios y
+                                que tienen entre ellos palabras que implican graduación. Por ejemplo:
+                                <br><i>Tocaron el timbre <b>antes</b> de que terminara la clase.</i>
+                                <br><i>Tocaron el timbre <b>después</b> de que terminara la clase.</i> (<i
+                                    class="i">Durante</i> sería la palabra intermedia).
+                            </li>
+
+                            <p>Por otro lado, según su forma, los antónimos se clasifican en:</p>
+                            <li><b>Antónimos lexicales</b>. Son aquellos términos que están formados por lexemas
+                                distintos, es decir, que no comparten una misma raíz. Por ejemplo:
+                                <br><i>El <b>verano</b> estaba llegando a su fin.</i>
+                                <br><i>El <b>invierno</b> estaba llegando a su fin.</i>
+                            </li>
+                            <li><b>Antónimos morfológicos</b>. Son aquellos términos que se forman agregando a la raíz
+                                de una palabra un prefijo de negación, privación u oposición, que puede ser <i
+                                    class="i">a-, anti-, contra- des-, in-</i>. Por lo general, son antónimos absolutos.
+                                Por ejemplo:
+                                <br><i>El <b>interés</b> por el tema era evidente.</i>
+                                <br><i>El <b>desinterés</b> por el tema era evidente.</i>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+            <section class="video-sect">
+                <h3>Vídeo sobre antónimos</h3>
+                <iframe width="80%" height="600" src="https://www.youtube.com/embed/eHtkddSlJ-Q?si=qjO5n6zY3Z4FxdXY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+            <section class="tabla-ejemplos">
+                <h3>Ejemplos de sinómimos y antónimos</h3>
+                <figure class="wp-block-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Palabra</th>
+                            <th>Sinónimo</th>
+                            <th>Antónimo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>aburrido</td>
+                            <td>tedioso</td>
+                            <td>divertido</td>
+                        </tr>
+                        <tr>
+                            <td>agregar</td>
+                            <td>añadir</td>
+                            <td>quitar</td>
+                        </tr>
+                        <tr>
+                            <td>alargar</td>
+                            <td>estirar</td>
+                            <td>acortar</td>
+                        </tr>
+                        <tr>
+                            <td>boda</td>
+                            <td>matrimonio</td>
+                            <td>divorcio</td>
+                        </tr>
+                        <tr>
+                            <td>bonito</td>
+                            <td>bello</td>
+                            <td>feo</td>
+                        </tr>
+                        <tr>
+                            <td>costoso</td>
+                            <td>caro</td>
+                            <td>barato</td>
+                        </tr>
+                        <tr>
+                            <td>cumbre</td>
+                            <td>pico</td>
+                            <td>valle</td>
+                        </tr>
+                        <tr>
+                            <td>demonio</td>
+                            <td>diablo</td>
+                            <td>ángel</td>
+                        </tr>
+                        <tr>
+                            <td>desequilibrado</td>
+                            <td>desnivelado</td>
+                            <td>equilibrado</td>
+                        </tr>
+                        <tr>
+                            <td>desorden</td>
+                            <td>caos</td>
+                            <td>orden</td>
+                        </tr>
+                        <tr>
+                            <td>felicidad</td>
+                            <td>alegría</td>
+                            <td>malestar</td>
+                        </tr>
+                        <tr>
+                            <td>humilde</td>
+                            <td>modesto</td>
+                            <td>soberbio</td>
+                        </tr>
+                        <tr>
+                            <td>iniciar</td>
+                            <td>comenzar</td>
+                            <td>terminar</td>
+                        </tr>
+                        <tr>
+                            <td>inocente</td>
+                            <td>absuelto</td>
+                            <td>culpable</td>
+                        </tr>
+                        <tr>
+                            <td>limpio</td>
+                            <td>aseado</td>
+                            <td>sucio</td>
+                        </tr>
+                        <tr>
+                            <td>luz</td>
+                            <td>claridad</td>
+                            <td>oscuridad</td>
+                        </tr>
+                        <tr>
+                            <td>magnífico</td>
+                            <td>espléndido</td>
+                            <td>mísero</td>
+                        </tr>
+                        <tr>
+                            <td>mojar</td>
+                            <td>humedecer</td>
+                            <td>secar</td>
+                        </tr>
+                        <tr>
+                            <td>muerto</td>
+                            <td>fallecido</td>
+                            <td>vivo</td>
+                        </tr>
+                        <tr>
+                            <td>obediente</td>
+                            <td>disciplinado</td>
+                            <td>desobediente</td>
+                        </tr>
+                        <tr>
+                            <td>orilla</td>
+                            <td>borde</td>
+                            <td>centro</td>
+                        </tr>
+                        <tr>
+                            <td>páramo</td>
+                            <td>desierto</td>
+                            <td>bosque</td>
+                        </tr>
+                        <tr>
+                            <td>principio</td>
+                            <td>inicio</td>
+                            <td>fin</td>
+                        </tr>
+                        <tr>
+                            <td>todavía</td>
+                            <td>aún</td>
+                            <td>nunca</td>
+                        </tr>
+                        <tr>
+                            <td>tranquilo</td>
+                            <td>calmo</td>
+                            <td>nervioso</td>
+                        </tr>
+                        <tr>
+                            <td>único</td>
+                            <td>singular</td>
+                            <td>múltiple</td>
+                        </tr>
+                        <tr>
+                            <td>valioso</td>
+                            <td>preciado</td>
+                            <td>vulgar</td>
+                        </tr>
+                        <tr>
+                            <td>verdad</td>
+                            <td>veracidad</td>
+                            <td>mentira</td>
+                        </tr>
+                        <tr>
+                            <td>volver</td>
+                            <td>regresar</td>
+                            <td>marcharse</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </figure>
+            </section>
+            <section class="games-sect">
+                <h3>A desarrollar</h3>
+                <div>
+                <button class="exam-btn" onclick="location.href='../'"><img src="images/trophy.svg" alt="" class="icon-trophy">Prueba de conocimiento<img src="images/trophy.svg" alt="" class="icon-trophy"></button>
+                <button onclick="location.href='../av- sinonimos/index.html'">Aprende sinónimos con imagenes</button>
+                <button onclick="location.href='../av-antonimos/index.html'">Aprende antónimos con imagenes</button>
+                
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
