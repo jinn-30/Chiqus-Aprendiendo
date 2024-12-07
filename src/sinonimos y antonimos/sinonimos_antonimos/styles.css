@@ -1,0 +1,136 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #6ec1e4;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  .game-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .words {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+    border:  1px solid #ccc;
+    margin: 20px;
+    padding: 15px;
+    width: 700px;
+  }
+  
+
+  
+  .word img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .word {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    cursor: grab;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin: 5px;
+  }
+  
+
+  
+  .word:active {
+    cursor: grabbing;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .categories {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .category {
+    margin: 20px 0 20px 0;
+    border: 2px dashed #aaa;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 360px;
+    max-width: 320px;
+    min-height: 200px;
+    background-color: #f9f9f9;
+  }
+  
+  .dropzone {
+    min-height: 150px;
+  }
+  
+  #feedback {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #6ec1e4;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #validateBtn {
+    background-color: #6ec1e4;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #validateBtn:hover {
+    background-color: #5cb0d7;
+  }
+  
+  .dropzone {
+    width: auto;
+    height: 310px;
+    border: 2px dashed #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+
+  

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad: Sinónimos y Antónimos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>¡Aprendamos Sinónimos y Antónimos!</h1>
+    <p>Arrastra las imágenes al grupo correcto y haz clic en "Validar".</p>
+  </header>
+  <main>
+    <section class="game-container">
+      <div class="words">
+        <!-- Las palabras se generarán dinámicamente -->
+      </div>
+      <div class="categories">
+        <div class="category" id="sinonimos">
+          <h2>Sinónimos</h2>
+          <div class="dropzone" data-category="sinonimos"></div>
+        </div>
+        <div class="category" id="antonimos">
+          <h2>Antónimos</h2>
+          <div class="dropzone" data-category="antonimos"></div>
+        </div>
+      </div>
+    </section>
+    <button id="validateBtn">Validar</button>
+
+    <div id="feedback"></div>
+  </main>
+  <footer>
+    <p>¡Diviértete aprendiendo! ✨</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
