@@ -234,6 +234,7 @@ button:hover {
 
 footer{
   display: flex;
+  justify-content: center;
   width: 100%;
   background-color:  #2acdbc;
   padding: 30px;
