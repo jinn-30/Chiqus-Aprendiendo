@@ -101,11 +101,11 @@ function checkAnswer(selectedAnswer, correctAnswer, button) {
     if (selectedAnswer === correctAnswer) {
         button.style.backgroundColor = 'green';
         button.style.color = 'white';
-        alert('¡Respuesta correcta!');
+        
     } else {
         button.style.backgroundColor = 'red';
         button.style.color = 'white';
-        alert('Respuesta incorrecta. La respuesta correcta era: ' + correctAnswer);
+        
     }
 }
 
