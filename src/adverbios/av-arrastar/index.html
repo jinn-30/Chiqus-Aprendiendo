@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+       rel="stylesheet">
+  <title>Clasificación de Adverbios</title>
+  <link rel="stylesheet" href="../../styles/app.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Clasifica los Adverbios</h1>
+  <p>Arrastra cada adverbio a su categoría correspondiente.</p>
+  <div class="game-container">
+    <div class="adverbs-container" id="adverbsContainer">
+
+    </div>
+    <div class="categories-container"> 
+      <div class="category" id="Lugar">
+        <h3>Lugar</h3>
+        <div class="dropzone" data-category="Lugar"></div>
+      </div>
+
+      <div class="category" id="Tiempo">
+        <h3>Tiempo</h3>
+        <div class="dropzone" data-category="Tiempo"></div>
+      </div>
+      <div class="category" id="Cantidad">
+        <h3>Cantidad</h3>
+        <div class="dropzone" data-category="Cantidad"></div>
+      </div>
+      <div class="category" id="Duda">
+        <h3>Duda</h3>
+        <div class="dropzone" data-category="Duda"></div>
+      </div>
+    </div>
+  </div>
+  <button id="validateButton" class="validate-btn">Validar</button>
+    <div id="resultMessage" class="result-message"></div>
+  <script src="script.js"></script>
+</body>
+</html>

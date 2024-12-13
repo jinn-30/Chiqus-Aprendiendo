@@ -1,0 +1,32 @@
+[
+    {
+        "question": "1. Los adverbios son palabras que expresan:",
+        "correct" : "Circunstancias de lugar, tiempo, modo, cantidad, afirmación, negación o duda.",
+        "incorrect1" : "Circunstancias de duda, afirmación y negación.",
+        "incorrect2" : "La modificación de sustantivos, adjetivos, verbos, artículos y determinantes."
+    },
+    {
+        "question": "2. Las funciones del adverbio son:",
+        "correct": "Modificar al verbo, al adjetivo o a otro adverbio.",
+        "incorrect1" : "Modificar al sujeto de la oración.",
+        "incorrect2" : "Intensificar al verbo y al adjetivo."
+    },
+    {
+        "question" : "3. En la expresión: “Mañana no hay clase, que mañana es fiesta.” La palabra “Mañana” es:",
+        "correct" : "Adverbio de tiempo",
+        "incorrect1" : "Adverbio de modo",
+        "incorrect2" : "Adverbio de lugar"
+    },
+    {
+        "question" : "4. Señala qué palabras de la siguiente relación son adverbios:",
+        "correct" : "Mal",
+        "incorrect1" : "Infeliz",
+        "incorrect2" : "Cansado"
+    },
+    {
+        "question" : "5. Señala si el adverbio mucho en la oración que se te muestra modifica a un verbo, un adjetivo u otro adverbio 'prefiero mucho más el cine'",
+        "correct" : "A un adverbio",
+        "incorrect1" : "A un verbo",
+        "incorrect2" : "A un adjetivo"
+    }
+]

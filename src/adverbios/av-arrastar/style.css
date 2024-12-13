@@ -1,0 +1,129 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+
+
+    font-size: 2.5em;
+    margin-bottom: 10px;
+
+}
+
+p {
+    margin: 10px 0 20px;
+    font-size: 16px;
+}
+
+.game-container {
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1000px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.adverbs-container {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 126px;
+    gap: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.adverb-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: grab;
+    text-align: center;
+    font-weight: bold;
+    height: 47px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.categories-container {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px;
+    width: 100%;
+
+}
+
+.category {
+    background-color: #f1f1f1;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    min-height: 150px;
+
+
+}
+
+#Lugar {
+    background-color: #e9c581;
+}
+
+#Tiempo {
+    background-color: #6ec1e4;
+}
+
+#Cantidad {
+    background-color: #df85c4;
+}
+
+#Duda {
+    background-color: #85dfb5;
+}
+
+.dropzone {
+    width: auto;
+    height: 310px;
+    border: 2px dashed #333;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-height: 150px;
+    gap: 10px;
+}
+
+.validate-btn {
+    background-color: #ddd;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.validate-btn:hover {
+    background-color: #ccc;
+}
+
+
+
+.result-message {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}

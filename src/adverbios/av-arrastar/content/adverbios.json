@@ -1,0 +1,15 @@
+[
+    { "word": "mucho", "category": "Cantidad" },
+    { "word": "mañana", "category": "Tiempo" },
+    { "word": "cerca", "category": "Lugar" },
+    { "word": "quizá", "category": "Duda" },
+    { "word": "poco", "category": "Cantidad" },
+    { "word": "hoy", "category": "Tiempo" },
+    { "word": "allá", "category": "Lugar" },
+    { "word": "tal vez", "category": "Duda" },
+    { "word": "bastante", "category": "Cantidad" },
+    { "word": "ayer", "category": "Tiempo" },
+    { "word": "arriba", "category": "Lugar" },
+    { "word": "a lo mejor", "category": "Duda" }
+  ]
+  
