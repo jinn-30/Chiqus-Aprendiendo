@@ -1,0 +1,32 @@
+[
+    {
+        "question": "1. ¿Qué son los sinónimos?",
+        "correct" : "Palabras que se escriben igual pero tienen diferente significado.",
+        "incorrect1" : "Palabras que se escriben diferente pero expresan el mismo significado.",
+        "incorrect2" : "Palabras que tienen un significado opuesto."
+    },
+    {
+        "question": "2. Cuáles de las siguientes palabras son sinónimos:",
+        "correct": "enojado/feliz",
+        "incorrect1" : "enojado/molesto",
+        "incorrect2" : "frío/caliente"
+    },
+    {
+        "question" : "3. ¿Qué son los antónimos?",
+        "correct" : "Palabras que tienen un significado opuesto.",
+        "incorrect1" : "Palabras que se escriben diferente pero expresan el mismo significado.",
+        "incorrect2" : "Palabras que se escriben igual pero tienen diferente significado."
+    },
+    {
+        "question" : "4. Carateristica mas importante de las fabulas:",
+        "correct" : "Deja una lección o moraleja",
+        "incorrect1" : "Explicar una noticia",
+        "incorrect2" : "Narra una historia de fantasia"
+    },
+    {
+        "question" : "5. Los narradores en primera persona se caracterizan por:",
+        "correct" : "Participa en la historia",
+        "incorrect1" : "No participa en la historia",
+        "incorrect2" : "Participa un poco en la historia"
+    }
+]
